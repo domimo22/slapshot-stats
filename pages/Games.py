@@ -17,7 +17,7 @@ game_id = st.text_input("Game ID")
 
 #if game data and id has been uploaded
 if (uploaded_file is not None) and (game_id is not None):
-    upload_file(upload_file, "hockeygamesraw")
+    upload_file(uploaded_file, "hockeygamesraw")
     # with connection.cursor() as cursor:
     #     sql_query = "SELECT * FROM Plays"
     #     cursor.execute(sql_query)
