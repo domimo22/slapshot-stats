@@ -27,4 +27,8 @@ Handles column renaming, data cleaning such as removing null rows, and uploading
 - **Data Storage (RDS)** <br>
 The processed data is stored in a MySQL instance. The database includes 3 tables, for each of players, teams, and plays (individual game events in a game).
 
+**AWS Services:** S3, RDS, Lambda, CloudWatch, EC2, IAM
+**Libraries:** boto3, PyMySQL, Streamlit
+**Other Tools:** AWS CLI, MySQL, Python
+
 ![Blank diagram](https://github.com/user-attachments/assets/afaa8eb3-fdf9-4343-b25f-e214831363aa)
