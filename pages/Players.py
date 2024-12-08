@@ -10,7 +10,7 @@ st.title("Player Stats")
 connection = pymysql.connect(
     host="mysql-slapshot.cho60sekgih0.us-east-1.rds.amazonaws.com",
     user="admin",
-    password="BiggestDS4300Fan",
+    password="{PASSWORD}",
     database="slapshot"
 )
 
@@ -54,6 +54,5 @@ if (player_id is not None):
 
             st.write("### Players Data")
             st.dataframe(df_players)
-            st.write("Tage Thompson is in the top 10% of goalscorers")
         else:
             st.write("No player data found.")

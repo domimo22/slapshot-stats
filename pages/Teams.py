@@ -10,7 +10,7 @@ st.title("Team Stats")
 connection = pymysql.connect(
     host="mysql-slapshot.cho60sekgih0.us-east-1.rds.amazonaws.com",
     user="admin",
-    password="BiggestDS4300Fan",
+    password="{PASSWORD}",
     database="slapshot"
 )
 
@@ -53,6 +53,5 @@ if (team_id is not None):
 
         st.write("### Teams Data")
         st.dataframe(df_teams)
-        st.write("Team rank for goals: #1")
     else:
         st.write("No team data found.")
