@@ -54,5 +54,6 @@ if (player_id is not None):
 
             st.write("### Players Data")
             st.dataframe(df_players)
+            st.write("Tage Thompson is in the top 10% of goalscorers")
         else:
             st.write("No player data found.")

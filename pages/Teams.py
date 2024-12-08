@@ -53,5 +53,6 @@ if (team_id is not None):
 
         st.write("### Teams Data")
         st.dataframe(df_teams)
+        st.write("Team rank for goals: #1")
     else:
         st.write("No team data found.")
